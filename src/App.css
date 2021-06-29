@@ -1,7 +1,9 @@
 *{
     margin: 0;
     box-sizing: border-box;
+
 }
+
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 20px 60px;
@@ -10,3 +12,16 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
+*::-webkit-scrollbar
+{
+	width: 12px;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #616060;
+} 
